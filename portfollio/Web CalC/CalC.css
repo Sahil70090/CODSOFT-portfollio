@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+    padding: 25px;
+  }
+  #img{
+    width: 75px;
+    height: 55px;
+  }
+  h2{
+    height: 5px;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  h1{
+    background-color: yellow;;
+  }
+  h3{
+    color: darkblack;
+    font: roman;
+  }
+  #num1{
+    text-decoration:solid;
+  }
+  #result{
+    font-size: large;
+  }
+  p{
+    font-family:'Courier New', Courier, monospace ;
+    padding: 8px;
+    margin: 8px;
+  }
+    @keyframes blink {
+      0% {color:red;}
+      50% {color: blue;}
+      100% {color: green;}
+    }
+    .blinking-line{
+      font-size: x-large;
+      font-style: italic;
+      font: 21px;
+      animation: blink 1s infinite;
+    }
+    
+  

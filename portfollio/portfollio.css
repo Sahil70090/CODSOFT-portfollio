@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+
+.header{
+    background-color: #0c0707;
+}
+
+.nav{
+    height: 119px;
+    width: 99%;
+    background-color: #0c0707;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#portfollio{
+    height: 50px;
+    width: 20px;
+    color: rgb(23, 116, 6);
+    font: 450% bolder;
+    font-family: cursive;
+    margin-left: 10px;
+}
+
+.navvar{
+    height: auto;
+    width: 539px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 759px;
+    margin-top: 35px;
+    font-size: 120%;
+}
+
+
+#header_hyper{
+    text-decoration: none;
+    color: green;
+}
+
+#header_hyper:hover{
+    height: 25px;
+    width: 120px;
+    border: 2px solid white;
+    align-content: center;
+    text-align: center;
+    
+}
+
+#break{
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+/* intro */
+
+.front_view{
+    height: 570px;
+    background-color: #0c0707;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.intro{
+    display: flex;
+}
+
+
+.print{
+    height: 360px;
+    width: 350px;
+    border: 5px solid rgb(23, 116, 6);
+    border-radius: 230px;
+    margin-top: 50px;
+    margin-left: 8%;
+    background-image: url(myprint.jpg);
+    background-size: 355px;
+}
+
+.paragraph{
+    color: aliceblue;
+    font-size: 43px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding: 3px;
+    background-color: rgb(37, 37, 37);
+    border: 2px solid rgb(23, 116, 6);;
+    border-radius: 15px;
+}
+
+#know_more{
+    height: 70px;
+    width: 120px;
+    font: 17px bolder;
+    background-color: rgb(23, 116, 6);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+#know_more:hover{
+    height: 75px;
+    width: 125px;
+    border: 3px solid whitesmoke;
+    border-radius: 0px;
+}
+
+
+/* about section */
+
+.about_print{
+    height: 360px;
+    width: 350px;
+    border: 10px solid rgb(23, 116, 6);
+    border-radius: 230px;
+    margin-top: 50px;
+    margin-left: 15%;
+    background-image: url(myprint.jpg);
+    background-size: 355px;
+}
+
+.about_heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    color: rgb(23, 116, 6);
+}
+
+.me{
+    display: flex;
+}
+#myself{
+    height: 90%;
+    width: 60%;
+    font-size: 21px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#skills_button{
+    height: 70px;
+    width: 120px;
+    font: 25px bolder;
+    background-color: rgb(23, 116, 6);
+    margin-top: 30px;
+    margin-left: 4%;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+#skills_button:hover{
+    height: 75px;
+    width: 125px;
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+/* skills */
+#skills{
+    background-color: #0c0707;
+    border: 2px solid #0c0707;
+    border-radius: 15px;
+}
+
+.skills_heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    color: rgb(23, 116, 6);
+}
+
+.all_skills{
+    height: 480px;
+    width: 80%;
+    background-color: #f0f8ff;
+    margin-left: 130px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.box1{     
+    height: 200px;
+    width: 190px;
+    background-color: rebeccapurple;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    left: 70px;
+    animation-name: box1;
+    animation-duration: 2s;
+    animation-fill-mode:none;
+}
+@keyframes box1{
+    from{height: 180px;
+        width: 170px;
+    }
+    to{height: 200px;
+        width: 190px;
+    }
+} 
+
+.box2{
+    height: 200px;
+    width: 190px;
+    background-color: green;
+    position: relative;
+    top: 230px;
+    left: 45px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    animation-name: box2;
+    animation-duration: 5.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes box2{
+    from{height: 180px;
+        width: 170px;
+    }
+    to{height: 200px;
+        width: 190px;
+    }
+} 
+
+.box3{
+    height: 200px;
+    width: 190px;
+    background-color: yellow;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    right: 70px;
+    animation-name: box3;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes box3{
+    from{height: 180px;
+        width: 170px;
+    }
+    to{height: 200px;
+        width: 190px;
+    }
+} 
+
+.box4{
+    height: 200px;
+    width: 190px;
+    background-color: red;
+    position: relative;
+    top: 230px;
+    right: 45px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    animation-name: box4;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes box4{
+    from{height: 180px;
+        width: 170px;
+    }
+    to{height: 200px;
+        width: 190px;
+    }
+} 
+
+.box5{
+    height: 200px;
+    width: 190px;
+    background-color: pink;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    position: relative;
+    right: 70px;
+    animation-name: box5;
+    animation-duration: 4s;     
+    animation-fill-mode: forwards;
+}
+@keyframes box5{
+    from{
+        height: 180px;
+        width: 170px;
+    }
+    to{
+        height: 200px;
+        width: 190px;
+    }
+}
+
+/* PROJECT SECTION */
+
+.myproject{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+    color: rgb(23, 116, 6);
+}
+
+.project_container{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    border: 7px solid black;
+    border-radius: 25px;
+    background-color: rgb(8, 145, 8);
+}
+
+.project_hyper{
+    margin-left: 100px;
+    font-size: larger;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+li:hover{
+    border: 5px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+/* .achievement section */
+
+.achievement{
+    background-color: #0c0707;
+    border: 2px solid #0c0707;
+    border-radius: 15px;
+}
+
+.myachievement{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+    color: rgb(23, 116, 6);
+}
+
+.achievement_container{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    border: 7px solid black;
+    border-radius: 25px;
+    background-color: rgb(8, 145, 8);
+}
+
+.achievement_box{
+    height: fit-content; 
+    width: 25%; 
+    border: 2px solid black; 
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 15px;
+    text-align: center;
+    align-content: center;
+}
+.achievement_box:hover{
+    background-color: #f0f1f3;
+    height: 50px;
+}
+
+/* contact setion */
+
+
+.mycontact{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+    color: rgb(23, 116, 6);
+}
+
+.contact_box{
+    height: 500px;
+    width: 470px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 30%;
+    text-align: center;
+}
+

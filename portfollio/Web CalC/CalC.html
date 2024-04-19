@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculations</title>
+    <link rel="stylesheet" href="CalC.css"/>
+    <link rel="stylesheet" href="Calc.2nd.css ">
+    <script src="CalC.js"></script>
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+          <h1 id="portfollio">myPortfolio</h1>
+          <nav class="navvar">
+              <a href="#" id="header_hyper">Home</a>
+              <hr>
+              <a href="#" id="header_hyper" name="about_button">About</a>
+              <hr>
+              <a href="#" id="header_hyper" name="skill_button">skills</a>
+              <hr>
+              <a href="#" id="header_hyper" name="project_button">Projects</a>
+              <hr>
+              <a href="#" id="header_hyper">Achievements</a>
+              <hr>
+              <a href="#" id="header_hyper">Contact</a>
+          </nav>
+      </div>
+      <br>
+      <hr id="break">
+  </div>
+
+    <img id="img" src="data:image/png;base64,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" alt="sahil">
+
+  <pre>  
+  <h2 align="right"> <a href="1st web about.html" style="text-decoration: none;color: black;">Home</a>      <a href="https://www.bing.com/search?q=light+academy&qs=n&form=QBRE&sp=-1&lq=0&pq=&sc=0-0&sk=&cvid=866473FAF07B4FC6AA36ACC50A734702&ghsh=0&ghacc=0&ghpl=" style="text-decoration: none;color: black;">About us</a>    <a href="https://www.merriam-webster.com/dictionary/class" style="text-decoration: none;color: black;">Classes</a>     <a href="https://www.icloud.com/pages" style="text-decoration: none;color: black;">Pages</a>     Conntact Us    <a href=hjiou dx style="text-decoration: none;color: black;">Join Us</a></h2>
+  </pre>
+    
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPBFbbl0e8ERVEDN0RHT2da3mz66wHQtjUTw&usqp=CAU" width="1250" height="300" alt="welcome">
+<p>Welcome to our user-friendly addition tool! With just a few clicks, you can effortlessly perform digit addition right here in your web browser. Our intuitive interface presents two input fields where you can enter your desired digits. Once you've inputted your values, simply hit the "Add" button, and witness the magic unfold. Our seamlessly integrated JavaScript code will swiftly calculate the sum of your digits and showcase the result below. It's a hassle-free and straightforward solution, ensuring that even those new to web interactions can experience the joy of instant addition. Embrace the simplicity of mathematics with our elegant HTML addition page – where numbers meet the convenience of the digital world!</p>
+    <h1 style="text-align: center">Perform operations</h1>
+    <h3>Please enter digits:</h3>
+    <input type="number" id="num1" placeholder="Enter 1st Digit" style="width: 550px; height: 30px;"/>
+    <input type="number" id="num2" placeholder="Enter 2nd Digit" style="width: 550px; height: 30px;"/>
+    <br><br>
+    <p1 id="result"></p1>
+    <br><br>
+    <button onclick="add()">ADD</button>
+    <button onclick="subtraction()">SUBTRACTION</button> 
+    <button onclick="multiply()">MULTIPLY</button>
+    <button onclick="devide()">DEVIDE</button>
+  <p>Experience seamless mathematical operations with our user-friendly interface, designed to make calculations effortless and efficient. Add numbers effortlessly with our intuitive addition feature, ensuring precision without any hassle. Subtract with ease using a simple and clean interface, allowing you to focus on the numbers that matter most. Multiply numbers effortlessly with our streamlined multiplication feature, providing a smooth and intuitive process for quick calculations. Dividing has never been more straightforward with our user-centric design, making complex divisions a breeze. Our website's mathematical functionalities are not only accurate but also user-friendly, ensuring a pleasant and efficient experience for all users. Say goodbye to complicated calculations and welcome a world of simplicity and convenience on our platform.</p>
+    <h1 align="center" class="blinking-line">Click!! for more formula resuts</h1>
+  <div>
+      <a href="CalC area.html" style="text-decoration: none;" target="_blank">
+        <h3>
+          <li>Area</li>
+        </h3>
+      </a>
+  </div>
+
+  </body>
+</html>

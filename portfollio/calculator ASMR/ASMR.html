@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ASMR.css">
+    <title>ASMR calculator</title>
+    
+</head>
+<body>
+    <h1>ASMR CALCULATOR</h1>
+    <div id="border">
+        <div id="display">
+            <h1 id="show_input"></h1>
+            <p id="result"></p>
+        </div>
+        <div id="solarpannel">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+            <div id="box4"></div>
+            <div>
+                <button id="C" onclick="clearDisplay()">C</button>
+            </div>
+        </div>
+        
+            <div id="button_8_to_divide">
+                <button id="button_8" onclick="number('8')">8</button>                
+                <button id="button_9" onclick="number('9')">9</button>
+                <button id="button_=" onclick="equal('=')">=</button>               
+                <button id="/" onclick="operate('/')">/</button>
+            </div>
+            <div id="button_5_to_x">            
+                <button id="button_5" onclick="number('5')">5</button>                
+                <button id="button_6" onclick="number('6')">6</button>                                
+                <button id="button_7" onclick="number('7')">7</button>                            
+                <button id="button_x" onclick="operate('*')">X</button>
+            </div>
+            <div id="button_2_to_-">
+                <button id="button_2" onclick="number('2')">2</button>                
+                <button id="button_3" onclick="number('3')">3</button>                
+                <button id="button_4" onclick="number('4')">4</button>                
+                <button id="button_-" onclick="operate('-')">-</button>                
+            </div>
+           <div id="button_0_to_+">
+                <button id="button_0" onclick="number('0')">0</button>           
+                <button id="button_00" onclick="number('00')">00</button>                       
+                <button id="button_1" onclick="number('1')">1</button>                    
+                <button id="button_+" onclick="operate('+')">+</button>            
+           </div>
+        </div>
+    </div>
+    <script src="ASMR.js"></script>
+</body>
+</html>

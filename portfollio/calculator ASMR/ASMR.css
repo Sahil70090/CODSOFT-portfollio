@@ -1,0 +1,108 @@
+
+
+body{
+    background-color: grey;
+}
+
+h1{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:200px;
+    margin: 0%;
+    text-decoration:underline;
+}
+
+#border{
+    height: 560px;
+    width: 430px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 115px;
+    border: 3px solid black;
+    border-radius: 30px 30px 25px 25px;
+}
+
+#display{
+    height: 100px;
+    width: 423px;
+    background-color:darkgray;
+    border: 2.5px solid black;
+    margin: 1px;
+    border-radius: 30px 30px 0px 0px;
+}
+#show_input{
+    color: #000000;
+    font-size: 70px;
+    text-decoration: none;
+    text-align: end;
+    overflow: hidden;
+}
+
+#solarpannel{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-flex;
+}
+#box1{
+    height: 50;
+    width: 10px;
+    background-color: #000000;
+    margin-top: 5x;
+    margin-left: 1px ;
+    padding: 20px;
+    border: 1px white solid;
+}
+#box2{
+    height: 50;
+    width: 10px;
+    background-color: #000000;
+    margin-top: 5x;
+    margin-left: 1px ;
+    padding: 20px;
+    border: 1px white solid;
+}
+#box3{
+    height: 50;
+    width: 10px;
+    background-color: #000000;
+    margin-top: 5x;
+    margin-left: 1px ;
+    padding: 20px;
+    border: 1px white solid;
+}
+#box4{
+    height: 50;
+    width: 10px;
+    background-color: #000000;
+    margin-top: 5x;
+    margin-left: 1px ;
+    padding: 20px;
+    border: 1px white solid;
+}
+
+#C{
+    height: 50px;
+    width: 80px;
+    margin-left: 120px;
+    border: 4px solid green;
+}
+
+button{
+    height: 76px;
+    width: 94px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: lightyellow;
+}
+@media(min-width:320px){
+    #border{
+        flex-wrap: wrap;
+        align-content: center;
+        
+        
+    }
+}
